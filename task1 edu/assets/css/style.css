@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+a,p,
+li,
+label,
+input,
+textarea {
+    font-size: 1.5rem;
+}
+
+
+nav,
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.first-navbar,
+.second-navbar {
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.second-navbar {
+    width: 350px;
+}
+
+nav {
+    position: fixed;
+    z-index: 10;
+}
+
+footer {
+    justify-content: center;
+    gap: 50px;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./../img/online.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero h1 {
+    width: max-content;
+    height: max-content;
+    background-color: rgba(128, 128, 128, 0.3);
+padding: 20px;
+border-radius: 5px;
+text-align: center;
+}
+
+#about,
+#service,
+#specialization,
+#teacher,
+#plan,
+#contact,
+#contactinfo {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+#about,
+#specialization,
+#plan {
+    background-color: white;
+}
+
+#service,
+#teacher,
+#contact {
+
+    background-color: #fcd4be;
+}
+
+#contactinfo {
+    background-color: #fcd0b9;
+}
+
+
+
+#about p {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+
+#contact .container {
+    flex-direction: column;
+    gap: 0px;
+}
+
+.card {
+    width:max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+gap: 10px;
+}
+
+
+#plan .card {
+    background-color: #f5deb3;
+    padding: 5px;
+    border-radius: 5px;
+}
+#service .card ,#teacher .card{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;   
+}
+#specialization .card{
+    background-color: #fcd4be;
+    padding: 5px;
+    border-radius: 5px;  
+}
+#teacher .card ,#specialization .card{
+    max-width: 270px;
+}
+
+.box {
+    background-color: #fde98c;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+input,textarea{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    display: block;
+}
+
+.submit {
+    width: 150px;
+    height: max-content;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background-color: gray;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+@media screen and (max-width : 992px)
+{html{
+    font-size: 10px;
+}
+    
+    
+}
+
+
+/** .first-navbar{
+    width: 400px;
+
+ }   
+ .second-navbar{
+    width: 300px;
+ }**/
+
+/**@media screen and (max-width : 400px)
+{ html{
+    font-size: 5px;
+}
+nav{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ .first-navbar{
+    width: 250px;
+
+ }   
+ .second-navbar{
+    width: 175px;
+ }**/
